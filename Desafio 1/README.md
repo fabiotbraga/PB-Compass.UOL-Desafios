@@ -76,3 +76,5 @@ São códigos que definem o tipo de resposta que recebemos do servidor.
 - Os códigos 3xx indicam redirecionamento, como o código 301, que indica que o navegador deve redirecionar para um endereço(URI) específico.
 
 #### 16. Conta pra gente como foi sua experiência na Sprint#01 do programa de bolsa @node.js_mar22 e quais suas expectativas a partir de agora.
+
+Achei a experiência com a Sprint#01 foi muito produtiva no geral. Tive o primeiro contato com o método Scrum, revi alguns conceitos de Git e do protocolo HTTP e aprendi muita coisa nova também. Quanto á expectativas, espero ter mais partes práticas para a próxima Sprint, principalmente na parte de banco de dados, pois vi muito superficialmente na faculdade. Acredito ser um assunto muito importante e espero aprender bastante.
