@@ -39,6 +39,8 @@ O protocolo estabelece a conexão cliente-servidor através de solicitações (r
 
 #### 8. Com o Git ,você pode propor mudanças (adicioná-las ao Index) usando um comando. Qual é esse comando?
 
+Podemos adicionar arquivos para o index através do comando `git add <arquivo>`
+
 #### 9. O que é a Branch master e para que serve?
 
 #### 10. Quais são os comandos usados para atualizar um repositório local e fazer merge de um outro branch ao seu branch ativo?
