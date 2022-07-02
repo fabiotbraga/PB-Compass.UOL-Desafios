@@ -1,6 +1,4 @@
 # Desafio 1: Programa de Bolsas UOL
-[TOC]
-
 ## Perguntas:
 
 #### 1. Para que serve o método Scrum?
