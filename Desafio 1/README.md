@@ -51,6 +51,8 @@ Os comandos utilizados para atualizar um repositório local e fazer merge, são 
 
 #### 11. Qual a diferença entre Git e Github
 
+Enquanto o Git é utilizado para versionamento de código, o Github é um serviço de hospedagem de projetos em repositórios remotos.
+
 #### 12. Quais os dois verbos HTTP que podemos utilizar para realizar um update? Explique a diferença entre eles.
 
 #### 13. Qual o status code que pode ser usado na criação de um novo usuário?
