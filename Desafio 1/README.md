@@ -27,6 +27,8 @@ Um software de versionamento de código que tem o objetivo de manter um históri
 
 #### 5. Qual o comando para criação de um novo repositório no Git?
 
+Podemos criar um repositório Git com o comando`git init`
+
 #### 6. O que é o HTTP?
 
 #### 7. Como funciona o HTTP?
