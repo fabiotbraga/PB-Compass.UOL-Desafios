@@ -23,6 +23,8 @@ Um software de versionamento de código que tem o objetivo de manter um históri
 
 #### 4. O que é um Scrum Product Owner?
 
+É o profissional responsável por representar os interesses do cliente dentro do time Scrum. É o responsável por produzir product backlog e mantê-lo atualizado conforme as prioridades do cliente.
+
 #### 5. Qual o comando para criação de um novo repositório no Git?
 
 #### 6. O que é o HTTP?
