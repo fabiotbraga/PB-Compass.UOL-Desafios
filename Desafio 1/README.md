@@ -35,6 +35,8 @@ O HTTP(Hypertext Transfer Protocol) é um protocolo para comunicações na inter
 
 #### 7. Como funciona o HTTP?
 
+O protocolo estabelece a conexão cliente-servidor através de solicitações (requests) e respostas(response), onde o cliente sempre inicia a conexão e todas conexões são individuais. Uma conexão deve ter todas as informações para que servidor possa gerar uma resposta. Para que uma página Web possa ser exibida, o navegador envia um request solicitando um documento HTML. Então com a response do servidor, o navegador vai solicitando os itens para que a página posso ser executada, como arquivos CSS, imagens, vídeos ou scripts javascript, para por fim, exibir a página web em sua totalidade.
+
 #### 8. Com o Git ,você pode propor mudanças (adicioná-las ao Index) usando um comando. Qual é esse comando?
 
 #### 9. O que é a Branch master e para que serve?
