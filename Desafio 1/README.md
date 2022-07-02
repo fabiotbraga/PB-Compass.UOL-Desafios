@@ -9,6 +9,14 @@ O método Scrum serve para gerenciar projetos complexos de maneira a torná-lo m
 
 #### 2. Como funciona o método Scrum?
 
+Um projeto Scrum é dividido em interações chamadas Sprints, que possuem tempo que pode variar de 2 a 4 semanas. Em cada Sprint são implementadas as funcionalidades listadas no Product Backlog, sendo uma lista composta por histórias que contêm necessidades desejadas para um produto. O conteúdo dessa lista é composto pelo Product Owner que tem a liberdade de alterar a lista e priorizá-los conforme a necessidade do produto.
+
+Ao início de cada Sprint acontece o Sprint Planning, onde o PO apresenta o Product Backlog para o Scrum master e a equipe de desenvolvimento e juntos montam o Sprint Backlog. Nesta lista, o PO prioriza os itens a serem desenvolvidos e a equipe seleciona as atividades que conseguirá desenvolver durante esta Sprint.
+
+Durante a Sprint, diariamente, acontece a Daily Scrum, em que a equipe realiza uma breve reunião, onde todos devem reportar o que foi feito, o que vão fazer e se houve algum impedimento. Essa reunião deve ser curta (15min) para não atrapalhar no prosseguimento das tarefas.
+
+Ao final de cada Sprint acontece o Sprint Review, onde a equipe de desenvolvimento apresenta uma funcionalidade pronta para o cliente e ouve o feedback do cliente sobre o produto. Por fim faz-se uma Sprint Retrospective, onde a equipe define os pontos para serem melhorados para a próxima Sprint.
+
 #### 3. O que é Git?
 
 #### 4. O que é um Scrum Product Owner?
