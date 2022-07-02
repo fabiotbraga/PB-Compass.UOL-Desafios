@@ -43,6 +43,8 @@ Podemos adicionar arquivos para o index através do comando `git add <arquivo>`
 
 #### 9. O que é a Branch master e para que serve?
 
+As branches no git, servem para criar uma linha de commits individual com o objetivo de criar funcionalidades de forma independente. A branch master é o nome dado para a branch principal de um projeto.
+
 #### 10. Quais são os comandos usados para atualizar um repositório local e fazer merge de um outro branch ao seu branch ativo?
 
 #### 11. Qual a diferença entre Git e Github
