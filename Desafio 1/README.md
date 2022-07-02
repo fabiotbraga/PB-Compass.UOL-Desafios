@@ -5,6 +5,8 @@
 
 #### 1. Para que serve o método Scrum?
 
+O método Scrum serve para gerenciar projetos complexos de maneira a torná-lo mais eficiente através de processos simples e com tempo definido.
+
 #### 2. Como funciona o método Scrum?
 
 #### 3. O que é Git?
