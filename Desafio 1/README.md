@@ -47,6 +47,8 @@ As branches no git, servem para criar uma linha de commits individual com o obje
 
 #### 10. Quais são os comandos usados para atualizar um repositório local e fazer merge de um outro branch ao seu branch ativo?
 
+Os comandos utilizados para atualizar um repositório local e fazer merge, são os comandos `git pull` para atualizar e o `git merge` para dar merge.
+
 #### 11. Qual a diferença entre Git e Github
 
 #### 12. Quais os dois verbos HTTP que podemos utilizar para realizar um update? Explique a diferença entre eles.
