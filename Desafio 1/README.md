@@ -63,6 +63,10 @@ Para criar um novo usuário utilizamos o método PUT, que tem como status code d
 
 #### 14. Quais são os três status code que podem ser utilizados para realizar o delete?
 
+Ao realizar o método DELETE, caso seja bem-sucedido, temos 3 de algumas possíveis respostas.
+
+O código 200 que nos diz que a requisição para deletar foi um sucesso, o código 202 que informa que a operação de deletar foi bem sucedida, mas não foi totalmente realizada e o código 204 que informa que a operação foi bem-sucedido, mas não retornou nenhuma informação.
+
 #### 15. Exemplifique para que serve os métodos HTTP 1xx, 2xx, 3xx, 4xx e 5xx. De uma forma macro (geral)!
 
 #### 16. Conta pra gente como foi sua experiência na Sprint#01 do programa de bolsa @node.js_mar22 e quais suas expectativas a partir de agora.
