@@ -69,4 +69,10 @@ O código 200 que nos diz que a requisição para deletar foi um sucesso, o cód
 
 #### 15. Exemplifique para que serve os métodos HTTP 1xx, 2xx, 3xx, 4xx e 5xx. De uma forma macro (geral)!
 
+São códigos que definem o tipo de resposta que recebemos do servidor.
+
+- Os códigos 1xx dão repostas de informação, como, por exemplo, o código 100 que informa temporariamente que o processo ocorreu bem e o cliente deve continuar com a requisição.
+- Os códigos 2xx indicam que a resposta foi um sucesso, como, por exemplo, o código 200 que indica que a requisição foi bem sucedida
+- Os códigos 3xx indicam redirecionamento, como o código 301, que indica que o navegador deve redirecionar para um endereço(URI) específico.
+
 #### 16. Conta pra gente como foi sua experiência na Sprint#01 do programa de bolsa @node.js_mar22 e quais suas expectativas a partir de agora.
