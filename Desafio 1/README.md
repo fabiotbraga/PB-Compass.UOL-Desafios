@@ -19,6 +19,8 @@ Ao final de cada Sprint acontece o Sprint Review, onde a equipe de desenvolvimen
 
 #### 3. O que é Git?
 
+Um software de versionamento de código que tem o objetivo de manter um histórico de versões de um código
+
 #### 4. O que é um Scrum Product Owner?
 
 #### 5. Qual o comando para criação de um novo repositório no Git?
