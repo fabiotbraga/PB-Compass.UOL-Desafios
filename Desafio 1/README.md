@@ -3,34 +3,34 @@
 
 ## Perguntas:
 
-#### Para que serve o método Scrum?
+#### 1. Para que serve o método Scrum?
 
-#### Como funciona o método Scrum?
+#### 2. Como funciona o método Scrum?
 
-#### O que é Git?
+#### 3. O que é Git?
 
-#### O que é um Scrum Product Owner?
+#### 4. O que é um Scrum Product Owner?
 
-#### Qual o comando para criação de um novo repositório no Git?
+#### 5. Qual o comando para criação de um novo repositório no Git?
 
-#### O que é o HTTP?
+#### 6. O que é o HTTP?
 
-#### Como funciona o HTTP?
+#### 7. Como funciona o HTTP?
 
-#### Com o Git ,você pode propor mudanças (adicioná-las ao Index) usando um comando. Qual é esse comando?
+#### 8. Com o Git ,você pode propor mudanças (adicioná-las ao Index) usando um comando. Qual é esse comando?
 
-#### O que é a Branch master e para que serve?
+#### 9. O que é a Branch master e para que serve?
 
-#### Quais são os comandos usados para atualizar um repositório local e fazer merge de um outro branch ao seu branch ativo?
+#### 10. Quais são os comandos usados para atualizar um repositório local e fazer merge de um outro branch ao seu branch ativo?
 
-#### Qual a diferença entre Git e Github
+#### 11. Qual a diferença entre Git e Github
 
-#### Quais os dois verbos HTTP que podemos utilizar para realizar um update? Explique a diferença entre eles.
+#### 12. Quais os dois verbos HTTP que podemos utilizar para realizar um update? Explique a diferença entre eles.
 
-#### Qual o status code que pode ser usado na criação de um novo usuário?
+#### 13. Qual o status code que pode ser usado na criação de um novo usuário?
 
-#### Quais são os três status code que podem ser utilizados para realizar o delete?
+#### 14. Quais são os três status code que podem ser utilizados para realizar o delete?
 
-#### Exemplifique para que serve os métodos HTTP 1xx, 2xx, 3xx, 4xx e 5xx. De uma forma macro (geral)!
+#### 15. Exemplifique para que serve os métodos HTTP 1xx, 2xx, 3xx, 4xx e 5xx. De uma forma macro (geral)!
 
-#### Conta pra gente como foi sua experiência na Sprint#01 do programa de bolsa @node.js_mar22 e quais suas expectativas a partir de agora.
+#### 16. Conta pra gente como foi sua experiência na Sprint#01 do programa de bolsa @node.js_mar22 e quais suas expectativas a partir de agora.
