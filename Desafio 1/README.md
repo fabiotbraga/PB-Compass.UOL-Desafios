@@ -59,6 +59,8 @@ Podemos utilizar o método PUT e o PATCH para dar update em algum recurso.  O m�
 
 #### 13. Qual o status code que pode ser usado na criação de um novo usuário?
 
+Para criar um novo usuário utilizamos o método PUT, que tem como status code de resposta o código 201 que indica que operação foi bem sucedida e um novo recurso foi adicionado.
+
 #### 14. Quais são os três status code que podem ser utilizados para realizar o delete?
 
 #### 15. Exemplifique para que serve os métodos HTTP 1xx, 2xx, 3xx, 4xx e 5xx. De uma forma macro (geral)!
