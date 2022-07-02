@@ -55,6 +55,8 @@ Enquanto o Git é utilizado para versionamento de código, o Github é um servi�
 
 #### 12. Quais os dois verbos HTTP que podemos utilizar para realizar um update? Explique a diferença entre eles.
 
+Podemos utilizar o método PUT e o PATCH para dar update em algum recurso.  O método PUT é utilizado para alterações completas, ou seja, substitui todo o recurso. O método PATCH é utilizado para alterações parciais, ou seja, podemos alterar apenas parte dos dados deste recurso
+
 #### 13. Qual o status code que pode ser usado na criação de um novo usuário?
 
 #### 14. Quais são os três status code que podem ser utilizados para realizar o delete?
