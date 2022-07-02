@@ -31,6 +31,8 @@ Podemos criar um repositório Git com o comando`git init`
 
 #### 6. O que é o HTTP?
 
+O HTTP(Hypertext Transfer Protocol) é um protocolo para comunicações na internet, criando regras para a comunicação entre cliente e servidor.
+
 #### 7. Como funciona o HTTP?
 
 #### 8. Com o Git ,você pode propor mudanças (adicioná-las ao Index) usando um comando. Qual é esse comando?
