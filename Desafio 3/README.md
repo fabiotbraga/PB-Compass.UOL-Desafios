@@ -1,2 +1,2 @@
-# PB-Compass.UOL-Desafios
-Repositório criado para os desafios do programa de bolsas Compass.UOL
+# PB-Compass.UOL-Desafio 3
+Repositório criado para os desafio da sprint 3
