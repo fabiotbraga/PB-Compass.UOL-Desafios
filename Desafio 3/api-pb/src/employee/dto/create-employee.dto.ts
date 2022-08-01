@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { IsNotEmpty } from 'class-validator';
-import { EmployeeJob } from '../employeeEnum';
+import { EmployeeJob } from '../employee.entity';
 
 export class CreateEmployeeDto {
   @IsNotEmpty()

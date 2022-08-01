@@ -3,7 +3,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { CreateEmployeeDto } from './dto/create-employee.dto';
-import { GetEmployeeFilterDto } from './dto/getEmployeeFilter.dto';
+//import { GetEmployeeFilterDto } from './dto/getEmployeeFilter.dto';
 import { Employee } from './employee.entity';
 import { UpdateEmployeeDto } from './dto/update-employee.dto';
 
@@ -30,8 +30,11 @@ export class EmployeeService {
     return employee;
   }
 */
-  async findEmployeeById(employee_id: number): Promise<Employee> {
-    const employee_found = await this.employeeRepository.findOne(employee_id);
+
+  async findEmployeeById(employee_id: string): Promise<Employee> {
+    const employee_found = await this.employeeRepository.findOne({
+        where: {employee_id: employee_id}
+    });
     if (!employee_found) {
       throw new NotFoundException('Ocorreu um erro de contrato');
     }
@@ -51,7 +54,7 @@ export class EmployeeService {
   }
 
   async updateEmployee(
-    employee_id: number,
+    employee_id: string,
     updateProdutoDto: UpdateEmployeeDto,
   ) {
     const funcupdate = await this.employeeRepository.preload({
@@ -65,7 +68,8 @@ export class EmployeeService {
     return this.employeeRepository.save(funcupdate);
   }
 
-  async deleteEmployee(employee_id: number): Promise<void> {
+  async deleteEmployee(employee_id: string
+    ): Promise<void> {
     const funcRemove = await this.employeeRepository.delete({
       employee_id,
     });

@@ -1,11 +1,11 @@
 /* eslint-disable prettier/prettier */
-import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
-import { EmployeeJob } from './employeeEnum';
+import { BaseEntity, BeforeInsert, Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { v4 as uuidv4 } from 'uuid';
 
 @Entity()
 export class Employee extends BaseEntity {
-  @PrimaryGeneratedColumn()
-  employee_id: number;
+  @PrimaryGeneratedColumn('uuid')
+  employee_id: string;
 
   @Column()
   nome: string;
@@ -21,4 +21,19 @@ export class Employee extends BaseEntity {
 
   @Column()
   situation: string;
+
+  @BeforeInsert()
+  generatedId() {
+    if (this.employee_id) {
+      return;
+    }
+
+    this.employee_id = uuidv4();
+  }
 }
+
+export enum EmployeeJob {
+    gerente = 'gerente',
+    funcionario = 'funcionario',
+    caixa = 'caixa',
+  }

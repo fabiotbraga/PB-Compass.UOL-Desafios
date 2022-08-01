@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { IsOptional } from 'class-validator';
-import { EmployeeJob } from '../employeeEnum';
+import { EmployeeJob } from '../employee.entity';
 
 export class UpdateEmployeeDto{
     @IsOptional()
