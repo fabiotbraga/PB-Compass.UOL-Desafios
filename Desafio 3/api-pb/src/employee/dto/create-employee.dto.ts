@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import { IsNotEmpty, IsNumberString, MinDate } from 'class-validator';
+import { IsIn, IsNotEmpty, IsNumberString, MaxDate} from 'class-validator';
 import { EmployeeJob } from '../employee.entity';
 
 export class CreateEmployeeDto {
@@ -9,11 +9,12 @@ export class CreateEmployeeDto {
   @IsNumberString()
   @IsNotEmpty()
   readonly cpf: string;
-
+  
+  @IsIn([EmployeeJob.gerente, EmployeeJob.funcionario, EmployeeJob.caixa])
   @IsNotEmpty()
   office: EmployeeJob;
 
-  @MinDate(new Date())
+  @MaxDate(new Date())
   @IsNotEmpty()
   birthday: Date;
 }
