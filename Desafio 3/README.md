@@ -23,4 +23,6 @@ Repositório criado para os desafio da Sprint 3
 
   O código possui partes comentadas pois essas não funcionam corretamente ainda.
 
+  Em alguns scripts o eslint foi desligado, pois estava apresentando alguns bugs e estava atrapalhando no desenvolvimento do projeto.
+  
   
