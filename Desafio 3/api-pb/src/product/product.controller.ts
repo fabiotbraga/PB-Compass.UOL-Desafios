@@ -34,14 +34,12 @@ export class ProductController {
       }
     }
     */
-  /*
-    @Get('/:product_id')
-    findproductById(
-      @Param('product_id', ParseIntPipe) product_id: string,
-    ): Promise<product> {
-      return this.productService.findproductById(product_id);
-    }
-  */
+
+  @Get('/:product_id')
+  findproductById(@Param('product_id') product_id: string): Promise<Produto> {
+    return this.productService.finproductById(product_id);
+  }
+
   @Post()
   @UsePipes(ValidationPipe)
   createproduct(@Body() createproductDto: CreateProductDto): Promise<Produto> {
